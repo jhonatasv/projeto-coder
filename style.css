@@ -69,7 +69,7 @@ section {
     display: flex; 
     align-items: center;
     justify-content: space-evenly;
-    margin: 25px auto 45px auto;
+    margin: 25px auto 55px auto;
     padding: 15px;
 }
 
@@ -173,12 +173,22 @@ input[type=number] {
 
 div.comentario {
     background-color: #ddd;
-    width: 370px;
-    height: 150px; 
+    max-width: 400px;
+    height: 156px; 
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
+    position: relative; 
 }
 
+.comentario > div {
+    position: absolute;
+    top: 10%;
+    right: 81%;
+} 
+
+.descricao {
+    margin-left: 71px;
+}
 .paragrafo-comentario {
     padding-top: 10px;
     font-size: 18px;
@@ -283,7 +293,7 @@ a {
     }
 
     div.comentario {
-        max-width: 375px;
+        width: 400px;
         height: 150px; 
     }
 
