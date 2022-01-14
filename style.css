@@ -116,6 +116,14 @@ button:hover {
     line-height: 32px;
 }
 
+.fa-check-circle::before{
+ content: "\f058\00A0\00A0" !important;
+}
+
+.fa, .fas {
+    color: var(---cor1);
+}
+
 .call {
     display: flex;
     flex-direction: column;
@@ -249,7 +257,7 @@ a {
     }
    
     .dentro-segundo-conteiner > ul {
-        text-indent: 20%;
+        text-indent: 15%;
     }
    
    .dentro-call {
