@@ -297,8 +297,8 @@ a {
     }
 
     div.comentario {
-        width: 400px;
-        height: 150px; 
+        max-width: 367px;
+        height: 165px;
     }
 
     .paragrafo-comentario {
