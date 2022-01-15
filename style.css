@@ -16,6 +16,10 @@
     ---font1: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100vh; 
     font-family:var(---font1)
