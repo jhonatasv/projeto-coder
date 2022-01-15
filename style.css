@@ -229,6 +229,7 @@ footer {
 
 .footer-wraper ul li a {
     line-height: 30px;
+    display: inline-block;
 }
 
 a {
@@ -236,7 +237,8 @@ a {
 }
 
 .icons {
-    padding: 6px;
+    padding-top: 11px;
+    margin-left: 9px;
 }
 
 .icons:hover{
@@ -299,6 +301,10 @@ a {
     div.comentario {
         max-width: 367px;
         height: 165px;
+    }
+
+    .comentario > div {
+        right: 79%;
     }
 
     .paragrafo-comentario {
